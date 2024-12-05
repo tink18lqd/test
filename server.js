@@ -10,10 +10,10 @@ const WebSocket = require('ws');
 const mysql = require('mysql2');
 
 const db = mysql.createConnection({
-    host: "sql305.infinityfree.com",
-    user: "if0_37362409",
-    password: "PlsDontHack02",
-    database: "if0_37362409_message"
+    host: "sql5.freemysqlhosting.net",
+    user: "sql5750015",
+    password: "PFdqMZWnVW",
+    database: "sql5750015"
 });
 
 db.connect((error) => {
